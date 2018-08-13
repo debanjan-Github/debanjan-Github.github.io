@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Frontend Task</title>
+	<link rel="stylesheet" type="text/css" href="../libs/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/table.css">
+	<link rel="stylesheet" type="text/css" href="../css/ipInput.css">
+	<link rel="stylesheet" type="text/css" href="../css/select.css">
+	<link rel="stylesheet" type="text/css" href="../css/interface.css">
+	<link rel="stylesheet" type="text/css" href="../css/popup.css">
+
+	<script type="text/javascript" src="../libs/Jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../libs/angular-1.6.6/angular.min.js"></script>
+	<script type="text/javascript" src="../js/ipInput.js"></script>
+	<style type="text/css">
+		body {
+	    height: 100%;
+	    margin: 0;
+	    padding: 0;
+	}
+	</style>
+</head>
+<body ng-controller="pageCntrol">
+	<div id="loginPage" ng-include="'html/login.html'" onload="finishLoadingloginPage()">
+	</div>
+	<div id="landingPage" ng-include="'html/landingPage.html'" onload="finishLoadinglandingPage()" style="display: none;">
+		
+	</div>
+	<script type="text/javascript" src="../js/main.js"></script>
+</body>
+</html>

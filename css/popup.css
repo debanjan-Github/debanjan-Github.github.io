@@ -1,0 +1,35 @@
+.overlay {
+	width: 100%;
+    position: absolute;
+    height: 100%;
+    background: #969e9e8f;
+}
+.dialog {
+	padding: 39px 10px;
+    background: #fff;
+    border-radius: 10px;
+    width: 30%;
+    height: 25rem;
+    position: absolute;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.popupContent {
+	text-align: center;
+	font-size: 20px;
+}
+.dialog button{
+	background: #2ba2e8;
+    color: white;
+    width: 25%;
+    border-radius: 10px;
+    min-height: 30px;
+    font-size: 14px;
+    outline: none;
+    float: right;
+    margin-top: 35%;
+    margin-left: 20px;
+    position: relative;
+}

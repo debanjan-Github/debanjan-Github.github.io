@@ -1,0 +1,33 @@
+#menuBar {
+	width: 15%;
+	position: absolute;
+    height: 100%;
+    background: #7881ea;
+}
+.menuHeader {
+    height: 50px;
+    background: #c5d1dc;
+    text-align: center;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+.menuContent li {
+	list-style: none;
+    padding: 10px;
+    text-align: center;
+    background: #272e83;
+}
+.menuContent li:hover {
+	background: #b6bbf8;
+}
+.menuContent li:focus {
+	background: #b6bbf8;
+}
+.menuContent li a {
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+.menuContent li a:hover {
+	text-decoration: none;
+}

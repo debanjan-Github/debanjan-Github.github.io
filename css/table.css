@@ -1,0 +1,27 @@
+thead,tr {
+	box-shadow: 1px 2px 8px 2px #88888C;
+}
+th,td {
+	padding: 1% 49px;
+	text-align: center;
+}
+#myTable thead {
+	background: #72ccf6;
+}
+.delete img {
+	width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.delete img:hover {
+	opacity: 0.5;
+}
+#createRow {
+	background: white;
+    border: 2px solid #3004e0;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.trDisable {
+	background: #ced2d6 !important;
+}
