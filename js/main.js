@@ -144,15 +144,15 @@ angular = angular;
 	function displayLandingPage() {
 		let usernameInputValue = $('.loginContainerContent').find('input:first').val()
 		let passwordInputValue = $('.loginContainerContent').find('input:last').val()
-		//if ((localStorage.getItem('username') == usernameInputValue) && (localStorage.getItem('password') == passwordInputValue))
-		//{	
+		if ((localStorage.getItem('username') == usernameInputValue) && (localStorage.getItem('password') == passwordInputValue))
+		{	
 			$('#loginPage').css('display', 'none')
 			$('#landingPage').css('display', 'block')
 			$('.menuContent').find('li:eq(1)').css('background', '#b6bbf8')
 			$('.menuContent').find('li').on('click', function() {
 				$('.menuContent').find('li:eq(1)').css('background', '')
 			})
-		//}
+		}
 		setInterval(timerIncrement, 120000);
 	}
 
